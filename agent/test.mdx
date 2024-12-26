@@ -1,0 +1,24 @@
+---
+key: create-your-own
+description: A template Run for running your first model on VESSL AI simply by pinpointing to a GitHub repo and Hugging Face dataset.
+tags: [template, finetuning, quickstart]
+thumbnail_url: "./assets/hub-vessl.png"
+public_url: https://github.com/vessl-ai/hub-model/tree/main/mistral-7B
+order_number: 130
+---
+
+## Overview
+
+A template Run for creating and running your first model on VESSL AI simply by pinpointing to a GitHub repo and Hugging Face dataset.
+
+## Description
+
+This template run deploys an empty Python container on the cloud with custom Docker images and hardware requirements. Play around with the key-value pairs like `resources`, `import`, and `run` to scale from a GPU-accelerated Jupyter notebook to LLM fine-tuning in seconds.
+
+## Quickstart
+
+You can run the barebone containerized run with the following script.
+
+```sh
+vessl run create -f hub.yaml
+```
